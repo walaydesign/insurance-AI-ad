@@ -1,0 +1,132 @@
+.page-discuss {
+  max-width: 1000px;
+  -webkit-box-shadow: 0 4px 30px rgba(109, 47, 209, 0.11);
+          box-shadow: 0 4px 30px rgba(109, 47, 209, 0.11);
+  padding: 60px 100px;
+}
+
+.page-discuss .btn-back {
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  top: 60px;
+  left: 38px;
+}
+
+.page-discuss .btn-back img {
+  width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  .page-discuss {
+    padding: 40px 20px;
+  }
+  .page-discuss .btn-back {
+    position: static;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.discuss-content__head {
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--gray-1);
+}
+
+.discuss-content__head h1 {
+  font-size: 18px;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.discuss-content__time {
+  color: var(--gray-3);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.discuss-content__info-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.discuss-content__info-icon svg {
+  width: 25px;
+  height: 25px;
+}
+
+.discuss-content__info-icon p {
+  margin: 0;
+  font-weight: 500;
+  color: var(--gray-3);
+  font-family: var(--font-montserrat);
+}
+
+.discuss-content__info-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.discuss-content__info-btn.btn-orange svg path {
+  fill: var(--secondary-1);
+}
+
+.discuss-content__info-btn.btn-red svg path {
+  fill: var(--red);
+}
+
+.discuss-content__info-btn.btn-purple svg path {
+  fill: var(--primary-3);
+}
+
+.discuss-content__info-btn.btn-green svg path {
+  fill: var(--green);
+}
+
+.discuss-content__like {
+  cursor: pointer;
+}
+
+.discuss-content__like svg path {
+  fill: var(--gray-3);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.discuss-content__like.like svg path {
+  fill: var(--secondary-1);
+}
+
+.discuss-content__text {
+  padding-top: 11px;
+  color: var(--color-text);
+  padding-bottom: 14px;
+}
+
+@media screen and (max-width: 991px) {
+  .discuss-content {
+    padding: 0;
+    width: 100%;
+  }
+  .discuss-content h1 {
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--gray-1);
+  }
+  .discuss-content__head {
+    border: 0;
+  }
+  .discuss-content__info {
+    border: 0;
+    padding-top: 13px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=article.css.map */
