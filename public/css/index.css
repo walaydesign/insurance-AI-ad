@@ -344,6 +344,9 @@
   .home-content_main {
     width: 100%;
   }
+  .home-content_banner {
+    margin-bottom: 0;
+  }
   .home-content_banner_top {
     margin-bottom: 16px;
   }
@@ -352,12 +355,16 @@
   }
   .home-content_side {
     width: 100%;
+    padding: 0;
   }
   .home-tab {
     width: 100%;
   }
   .home-tab .nav-item, .home-tab .nav-link {
     width: 100%;
+  }
+  .home_discuss {
+    margin-bottom: 16px;
   }
   .home_discuss .home-tab .nav-item {
     width: 100%;
@@ -473,6 +480,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .project {
+    margin-bottom: 16px;
+  }
   .project_content {
     display: block;
   }
@@ -698,6 +708,11 @@
   background-color: rgba(255, 255, 255, 0.35);
 }
 
+.footer_info ul li * {
+  color: var(--white) !important;
+  text-decoration: none !important;
+}
+
 .footer_nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -777,6 +792,9 @@
   .footer {
     padding: 60px 20px;
   }
+  .footer .container {
+    padding: 0;
+  }
   .footer_top {
     display: block;
   }
@@ -792,6 +810,9 @@
   }
   .footer_verify {
     margin-top: 40px;
+  }
+  .footer_info ul li p {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=index.css.map */

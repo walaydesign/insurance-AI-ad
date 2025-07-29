@@ -274,6 +274,7 @@
                 width: 100%;
             }
             &_banner {
+                margin-bottom: 0;
                 &_top {
                     margin-bottom: 16px;
                 }
@@ -283,6 +284,7 @@
             }
             &_side {
                 width: 100%;
+                padding: 0;
             }
         }
         &-tab {
@@ -292,6 +294,7 @@
             }
         }
         &_discuss {
+            margin-bottom: 16px;
             .home-tab {
                 .nav-item {
                     width: 100%;
@@ -380,6 +383,7 @@
         }
     }
     @media screen and (max-width: 767px) {
+        margin-bottom: 16px;
         &_content {
             display: block;
             &_pic {
@@ -560,6 +564,10 @@
                     height: 14px;
                     background-color: rgba(255,255,255,0.35);
                 }
+                * {
+                    color: var(--white) !important;
+                    text-decoration: none !important;
+                }
             }
         }
     }
@@ -620,6 +628,9 @@
     }
     @media screen and (max-width: 767px) {
         padding: 60px 20px;
+        .container {
+            padding: 0;
+        }
         &_top {
             display: block;
         }
@@ -637,6 +648,15 @@
         }
         &_verify {
             margin-top: 40px;
+        }
+        &_info {
+            ul {
+                li {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
         }
     }
 }
